@@ -1,0 +1,57 @@
+
+// rule TeacherCanReadEverything {
+//     description: "Allow all participants read access to all resources"
+//     participant: "org.bcrg.msku.Teacher"
+//     operation: READ
+//     resource: "org.bcrg.msku.*"
+//     action: ALLOW
+// }
+rule StudentsCanReadTheirCertificate {
+    description: "Allow all students read access to their certificate"
+    participant(m): "org.bcrg.msku.Student"
+    operation: READ
+    resource(v): "org.bcrg.msku.CertificateTrancastion"
+    condition: (m.p_id==v.Student.p_id) 
+    action: ALLOW
+}
+
+rule TeacherToCertificateTrancastion{
+    description: "Allow all participants to submit transactions"
+    participant: "org.bcrg.msku.Teacher"
+    operation: CREATE
+    resource: "org.bcrg.msku.CertificateTrancastion"
+    action: ALLOW
+}
+
+rule TeacherToClass {
+    description: "Allow all participants full access to their assets"
+    participant(p): "org.bcrg.msku.Teacher"
+    operation: ALL
+    resource(r): "org.bcrg.msku.Class"
+    condition: (r.owner.getIdentifier() === p.getIdentifier())
+    action: ALLOW
+}
+
+rule SystemACL {
+  description:  "System ACL to permit all access"
+  participant: "org.hyperledger.composer.system.Participant"
+  operation: ALL
+  resource: "org.hyperledger.composer.system.**"
+  action: ALLOW
+}
+
+rule NetworkAdminUser {
+    description: "Grant business network administrators full access to user resources"
+    participant: "org.hyperledger.composer.system.NetworkAdmin"
+    operation: ALL
+    resource: "**"
+    action: ALLOW
+}
+
+rule NetworkAdminSystem {
+    description: "Grant business network administrators full access to system resources"
+    participant: "org.hyperledger.composer.system.NetworkAdmin"
+    operation: ALL
+    resource: "org.hyperledger.composer.system.**"
+    action: ALLOW
+}

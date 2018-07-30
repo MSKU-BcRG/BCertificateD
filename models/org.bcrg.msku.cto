@@ -1,0 +1,75 @@
+/*
+MSKU-BCRG 2018
+
+Model dosyamız bu şekildedir
+*/ 
+
+namespace org.bcrg.msku
+
+enum Gender{
+  o Male
+  o Famale
+}
+
+enum TeacherType{
+  o UZEM
+  o Enformatik
+}
+
+enum Importance{
+  o Low
+  o Normal
+  o High
+}
+
+
+abstract participant Person identified by p_id {
+  o String p_id
+  o String Name 
+  o String Surname
+  o Gender Gender
+}
+
+
+
+participant Student extends Person {
+
+  o DateTime RegisterDate
+
+}
+
+
+participant Teacher extends Person {
+
+  o TeacherType TeacherType
+  o DateTime RegisterDate
+
+}
+
+asset Class identified by c_id {
+  o String c_id
+  o String Name
+  o DateTime StartDate
+}
+
+
+asset Lesson identified by c_id{
+  o String c_id
+  o String Name
+  o String Description
+  --> Context[] Contexts
+  --> Teacher Teacher
+}
+
+asset Context identified by c_id{
+  o String c_id
+  o String Description
+  o Importance Importance
+}
+
+transaction CertificateTrancastion {
+  o String Grade
+  --> Student Student
+  --> Lesson Lesson
+  --> Class Class
+}
