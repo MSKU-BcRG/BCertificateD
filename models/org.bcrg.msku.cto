@@ -6,6 +6,14 @@ Model dosyamız bu şekildedir
 
 namespace org.bcrg.msku
 
+
+/*
+Enum tanımları aşağıdaki gibidir
+
+Enum tanımı yaparken boşluk bırakmamaya örnek gösteriniz
+X Very Low
+V VeryLow
+*/
 enum Gender{
   o Male
   o Famale
@@ -21,8 +29,18 @@ enum Importance{
   o Normal
   o High
 }
+//-----------------------MSKU-----BCRG-----2018-----------------------
 
+/*
+abstract kullanımı Object Oriented Programming mantığıyla eşdeğerdedir
+Alanları tekrar tekrar kullanmanızı engeller
+o String p_id yazarek alan tanımlamış olduk. Tipi de String.
 
+identified by p_id ise aslında PK belirtmekten farksız
+
+Yukarıda tanımladığımız Enumlardan biri olan Gender'i de bu şekilde kullandık
+o EnumTipi AlanAdı
+*/
 abstract participant Person identified by p_id {
   o String p_id
   o String Name 
@@ -30,8 +48,12 @@ abstract participant Person identified by p_id {
   o Gender Gender
 }
 
+//-----------------------MSKU-----BCRG-----2018-----------------------
 
-
+/*
+Oluşturmuş olduğumuz katılımcılar da Person abstract'ından miras alarak bize kolaylık sağladı.
+DateTime Tarih değişkeni
+ */
 participant Student extends Person {
 
   o DateTime RegisterDate
@@ -46,13 +68,22 @@ participant Teacher extends Person {
 
 }
 
+
+//-----------------------MSKU-----BCRG-----2018-----------------------
+
+/*
+assetlerimiz bu şekilde tanımlanmıştır
+ */
+
 asset Class identified by c_id {
   o String c_id
   o String Name
   o DateTime StartDate
 }
 
-
+// Context[] Contexts 
+// Lesson asset'imiz Context tipinde bir liste alıyor.
+// Aynı şekilde "-->" bağlamı kullanılarak başka bir asset veya participant ilişki kurulabilir
 asset Lesson identified by c_id{
   o String c_id
   o String Name
@@ -66,7 +97,13 @@ asset Context identified by c_id{
   o String Description
   o Importance Importance
 }
+//-----------------------MSKU-----BCRG-----2018-----------------------
 
+/*
+Ornek bir transaction tanımı
+Student, Lesson ve Class ihtiyaç duyuyor. Bunların idleri verilirse yeterli. Ancak /lib/logic.js içerisinde
+bu transactionun gerçekleşmesi için gerekli bir method bulunmak zorunda.
+ */
 transaction CertificateTrancastion {
   o String Grade
   --> Student Student
