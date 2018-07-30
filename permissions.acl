@@ -1,11 +1,43 @@
 
-// rule TeacherCanReadEverything {
-//     description: "Allow all participants read access to all resources"
-//     participant: "org.bcrg.msku.Teacher"
-//     operation: READ
-//     resource: "org.bcrg.msku.*"
-//     action: ALLOW
-// }
+
+//-----------------------MSKU-----BCRG-----2018-----------------------
+/*
+Kural tanımlarımız aşağıdaki gibidir
+
+description : Kurallınızın açıklaması
+
+participant : Hangi katılımcılar bu kuraldan sorumlu
+
+operation : Hangi operasyonlar bu kurala dahildir.
+
+READ - CREATE - DELETE - ALL parametrelerini alabilir
+READ - Sadece okumak
+CREATE - Sadece oluşturmak
+DELETE - Sadece silmek
+ALL - Hepsi
+
+resource : Hangi kaynaklarda bu kural geçerlidir
+org.bcrg.msku.* örneğinde gördüğümüz üzere org.bcrg.msku adlı namespace altında tüm kaynaklar bu kurala tabidir.
+
+action : Kuralın türüdür.
+
+ALLOW - İzin ver
+DENY - Engelle
+
+condition : Kuralımızın şartı
+
+
+*/
+
+
+rule TeacherCanReadEverything {
+    description: "Allow all participants read access to all resources"
+    participant: "org.bcrg.msku.Teacher"
+    operation: READ
+    resource: "org.bcrg.msku.*"
+    action: ALLOW
+}
+
 rule StudentsCanReadTheirCertificate {
     description: "Allow all students read access to their certificate"
     participant(m): "org.bcrg.msku.Student"
@@ -22,7 +54,19 @@ rule TeacherToCertificateTrancastion{
     resource: "org.bcrg.msku.CertificateTrancastion"
     action: ALLOW
 }
+//-----------------------MSKU-----BCRG-----2018-----------------------
 
+/*
+En karmaşık kuralımız, bu yüzden bunu inceleyelim
+org.bcrg.msku adlı namespace altındaki Teacher participant'ı bu kuraldan etkilenecektir
+tüm operasyonlar bu kurala dahildir
+Teacher adlı katılımcımız sadece org.bcrg.msku adlı namespace altındaki Class adlı asset'ini etkileyebilir
+Şartımızdan anlaşılacağı üzere sadece Class'ın içerisindeki owner alanına bağlı Teacher'ımızın id'si ile işlem yapmak isteyen teacher bu kuraldan etkilenecek.
+
+Kısaca özetlemek istersek :
+Öğretmenler sadece kendi sınıflarında silme, görüntüleme, yaratma gibi özellikleri gerçekleştirme izninine sahiptir
+
+*/
 rule TeacherToClass {
     description: "Allow all participants full access to their assets"
     participant(p): "org.bcrg.msku.Teacher"
@@ -31,6 +75,7 @@ rule TeacherToClass {
     condition: (r.owner.getIdentifier() === p.getIdentifier())
     action: ALLOW
 }
+//-----------------------MSKU-----BCRG-----2018-----------------------
 
 rule SystemACL {
   description:  "System ACL to permit all access"
