@@ -9,16 +9,16 @@ Muğla Sıtkı Koçman Üniversitesi Blok Zincir Araştırma Grubu -MSKU BCRG- b
 
 ![photo_2018-07-30_15-45-15](https://user-images.githubusercontent.com/29989590/43398646-61d213d8-9411-11e8-88b2-fe424e68c753.jpg)
 
-* Yukarıdaki resimde, Öğrenci(Student) tanımlanmıştır. 
+* Yukarıdaki resimde, **Öğrenci(Student)** tanımlanmıştır. 
 
 ![photo_2018-07-30_15-45-10](https://user-images.githubusercontent.com/29989590/43398742-962ef1aa-9411-11e8-8f17-e72a1c684953.jpg)
 
-* Yukarıdaki resimde, Participants(Katılımcılar) ve Assets(Varlıklar) tanımlanmıştır.
+* Yukarıdaki resimde, **Participants(Katılımcılar)** ve **Assets(Varlıklar)** tanımlanmıştır.
 
 ![photo_2018-07-30_15-45-13](https://user-images.githubusercontent.com/29989590/43398825-cf529662-9411-11e8-8488-55e8a83f5f54.jpg)
 
-* Yukarıdaki resimde, Transaction History(İşlem Geçmişi) görülmektedir.
+* Yukarıdaki resimde, **Transaction History(İşlem Geçmişi)** görülmektedir.
 
 ![photo_2018-07-30_15-45-18](https://user-images.githubusercontent.com/29989590/43398904-0ad58794-9412-11e8-92db-39ab7d93e509.jpg)
 
-* Yukarıdaki resimde, Context(İçerik) tanımlanmıştır.
+* Yukarıdaki resimde, **Context(İçerik)** tanımlanmıştır.
