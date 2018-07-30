@@ -1,5 +1,5 @@
 
-# Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi Projesi #
+# Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi Projesi | BCRG-NETWORK #
 
 Muğla Sıtkı Koçman Üniversitesi Blok Zincir Araştırma Klubü -MSKU BCRG- bünyesinde hayata geçirilen, Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi başlıklı Tübitak 2209-A Projesinin devamı niteliğindeki prototipin kodlarını içermektedir. Proje Fabric Framework' ünü ve Composer Tool'unu kullanmaktadır. JavaScript yakını Hyperledger'a özgü bir programlama dili ile yazılmıştır.
 
