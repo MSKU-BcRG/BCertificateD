@@ -22,3 +22,5 @@ Muğla Sıtkı Koçman Üniversitesi Blok Zincir Araştırma Grubu -MSKU BCRG- b
 ![photo_2018-07-30_15-45-18](https://user-images.githubusercontent.com/29989590/43398904-0ad58794-9412-11e8-92db-39ab7d93e509.jpg)
 
 * Yukarıdaki resimde, **Context(İçerik)** tanımlanmıştır.
+
+** Not: Kartı hazır bir şekilde yüklemek için buraya [Kart](https://github.com/MSKU-BcRG/bcrg-network/blob/master/admin%40bcrg-network.card) tıklayabilirsiniz. 
