@@ -1,11 +1,8 @@
 
 # Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi Projesi | BCRG-NETWORK #
 
-Muğla Sıtkı Koçman Üniversitesi Blok Zincir Araştırma Grubu -MSKU BCRG- bünyesinde hayata geçirilen, Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi başlıklı Tübitak 2209-A Projesinin devamı niteliğindeki prototipin kodlarını içermektedir. Proje Fabric Framework' ünü ve Composer Tool'unu kullanmaktadır. JavaScript yakını Hyperledger'a özgü bir programlama dili ile yazılmıştır.
-
-![photo_2018-07-30_15-45-16](https://user-images.githubusercontent.com/29989590/43398411-b0bc3ede-9410-11e8-9c24-ec47b130adbb.jpg)
-
-* Yukarıdaki resimde, sistemden sertifika almak için öğrenci notunun **70 ve üzeri** olması gerektiği belirtiliyor. Not 45 (70 altında) olduğu için öğrenciye sertifika sağlanamamakta.
+* Muğla Sıtkı Koçman Üniversitesi Blok Zincir Araştırma Grubu -MSKU BCRG- bünyesinde hayata geçirilen, Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi başlıklı projenin prototip kodlarını içermektedir. 
+* Proje **Hyperledger Fabric** Framework' ünü ve **Hyperledger Composer** Tool'unu kullanmaktadır. JavaScript yakını Hyperledger'a özgü bir programlama dili ile yazılmıştır.
 
 ![photo_2018-07-30_15-45-15](https://user-images.githubusercontent.com/29989590/43398646-61d213d8-9411-11e8-88b2-fe424e68c753.jpg)
 
@@ -23,4 +20,8 @@ Muğla Sıtkı Koçman Üniversitesi Blok Zincir Araştırma Grubu -MSKU BCRG- b
 
 * Yukarıdaki resimde, **Context(İçerik)** tanımlanmıştır.
 
-** Not: Kartı hazır bir şekilde yüklemek için [Kart](https://github.com/MSKU-BcRG/bcrg-network/blob/master/admin%40bcrg-network.card) 'a tıklayabilirsiniz. 
+** Not: Kartı hazır bir şekilde iş ağınıza import etmek için [Kart](https://github.com/MSKU-BcRG/bcrg-network/blob/master/admin%40bcrg-network.card) 'a tıklayabilirsiniz. 
+
+![photo_2018-07-30_15-45-16](https://user-images.githubusercontent.com/29989590/43398411-b0bc3ede-9410-11e8-9c24-ec47b130adbb.jpg)
+
+* Yukarıdaki resimde, sistemden sertifika almak için öğrenci notunun **70 ve üzeri** olması gerektiği belirtiliyor. Not 45 (70 altında) olduğu için öğrenciye sertifika sağlanamamakta.
