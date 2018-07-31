@@ -1,5 +1,5 @@
 
-# Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi Projesi Prototipi | BCRG-NETWORK #
+# Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Projesi Prototipi | BCRG-NETWORK #
 
 * Muğla Sıtkı Koçman Üniversitesi Blok Zincir Araştırma Grubu -MSKU BCRG- bünyesinde hayata geçirilen, Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi başlıklı projenin prototip kodlarını içermektedir. 
 * Proje **Hyperledger Fabric** Framework' ünü ve **Hyperledger Composer** Tool'unu kullanmaktadır. JavaScript yakını Hyperledger'a özgü bir programlama dili ile yazılmıştır.
