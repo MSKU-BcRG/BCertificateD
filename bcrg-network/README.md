@@ -4,8 +4,8 @@
 <BCertificateD>
 Copyright (C) <2018>
   
-**Dr.Ogretim.Uyesi.Enis.Karaarslan**
-**Dr.Ogretim.Uyesi.Muge.Adnan**
+**Dr.Enis.Karaarslan**
+**Doç.Dr.Muge.Adnan**
 **Safak.Oksuzer**
 **Ayse.Ceyda.Olmez**
 
