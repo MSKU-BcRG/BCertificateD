@@ -1,8 +1,8 @@
 
-# BCertifieD | Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Projesi Prototipi | BCRG-NETWORK #
+# BCertificateD | Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Projesi Prototipi | BCRG-NETWORK #
 
-<BCertifieD>
-Copyright (C) <2018> <Dr.Ogretim.Uyesi.Enis.Karaarslan><Dr.Ogretim.Uyesi.Muge.Adnan><Safak.Oksuzer><Ayse.Ceyda.Olmez>
+<BCertificateD>
+Copyright (C) <2018> **<Dr.Ogretim.Uyesi.Enis.Karaarslan>** **<Dr.Ogretim.Uyesi.Muge.Adnan>** **<Safak.Oksuzer>** **<Ayse.Ceyda.Olmez>**
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -18,7 +18,7 @@ You should have received a copy of the GNU General Public License along
 with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-**Muğla Sıtkı Koçman Üniversitesi Blok Zincir Araştırma Grubu -MSKU BCRG- bünyesinde hayata geçirilen, Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi başlıklı projenin devamı niteliğindeki BCertifieD adlı prototipimizin kodlarını ve Business Network tanımını içermektedir.**
+**Muğla Sıtkı Koçman Üniversitesi Blok Zincir Araştırma Grubu -MSKU BCRG- bünyesinde hayata geçirilen, Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi başlıklı projenin devamı niteliğindeki BCertificateD adlı prototipimizin kodlarını ve Business Network tanımını içermektedir.**
 
 **Proje GNU GPL ile koruma altına alınmıştır.**
 
