@@ -1,8 +1,30 @@
 
-# Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Projesi Prototipi | BCRG-NETWORK #
+# BCertifieD | Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Projesi Prototipi | BCRG-NETWORK #
 
-* Muğla Sıtkı Koçman Üniversitesi Blok Zincir Araştırma Grubu -MSKU BCRG- bünyesinde hayata geçirilen, Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi başlıklı projenin prototip kodlarını içermektedir. 
-* Proje **Hyperledger Fabric** Framework' ünü ve **Hyperledger Composer** Tool'unu kullanmaktadır. JavaScript yakını Hyperledger'a özgü bir programlama dili ile yazılmıştır.
+<BCertifieD>
+Copyright (C) <2018> <Dr.Ogretim.Uyesi.Enis.Karaarslan><Dr.Ogretim.Uyesi.Muge.Adnan><Safak.Oksuzer><Ayse.Ceyda.Olmez>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+**Muğla Sıtkı Koçman Üniversitesi Blok Zincir Araştırma Grubu -MSKU BCRG- bünyesinde hayata geçirilen, Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Sistemi başlıklı projenin devamı niteliğindeki BCertifieD adlı prototipimizin kodlarını ve Business Network tanımını içermektedir.**
+
+**Proje GNU GPL ile koruma altına alınmıştır.**
+
+**Proje "Hyperledger Fabric" DLT Framework'ünü ve "Hyperledger Composer" Tool'unu kullanmaktadır. JavaScript yakını Hyperledger'a özgü bir programlama dili ile yazılmıştır.**
+
+**Kuruluma https://github.com/MSKU-BcRG/Hyperledger_Composer_Fabric_Kurulum_Rehberi nden başlayıp BCRG-network kodlarının yardımıyla kendi projenize uyarlamalar yapabilirsiniz.**
 
 ![photo_2018-07-30_15-45-15](https://user-images.githubusercontent.com/29989590/43398646-61d213d8-9411-11e8-88b2-fe424e68c753.jpg)
 
