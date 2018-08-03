@@ -2,7 +2,7 @@
 # BCertificateD | Sistem Destekli Eğitim için Blokzinciri Tabanlı Sertifikasyon Projesi Prototipi | BCRG-NETWORK #
 
 <BCertificateD>
-Copyright (C) <2018> **<Dr.Ogretim.Uyesi.Enis.Karaarslan>** **<Dr.Ogretim.Uyesi.Muge.Adnan>** **<Safak.Oksuzer>** **<Ayse.Ceyda.Olmez>**
+Copyright (C) <2018> **Dr.Ogretim.Uyesi.Enis.Karaarslan** **Dr.Ogretim.Uyesi.Muge.Adnan** **Safak.Oksuzer** **Ayse.Ceyda.Olmez**
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
